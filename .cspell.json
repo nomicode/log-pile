@@ -1,0 +1,23 @@
+{
+  "version": "0.2",
+  "language": "en-US",
+  "caseSensitive": false,
+  "allowCompoundWords": true,
+  "dictionaries": [
+    "companies",
+    "custom-vocab",
+    "docker",
+    "fileTypes",
+    "misc",
+    "npm",
+    "public-licenses",
+    "shell",
+    "softwareTerms"
+  ],
+  "dictionaryDefinitions": [
+    {
+      "name": "custom-vocab",
+      "path": ".vocab.txt"
+    }
+  ]
+}
