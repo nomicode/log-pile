@@ -17,7 +17,7 @@
   "dictionaryDefinitions": [
     {
       "name": "custom-vocab",
-      "path": ".vocab.txt"
+      "path": ".trunk/cspell/vocab.txt"
     }
   ]
 }

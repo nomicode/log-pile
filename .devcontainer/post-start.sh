@@ -16,3 +16,6 @@ fi
 whoami="$(whoami)"
 sudo chown -R "${whoami}" "${workspace_dir}"
 sudo setfacl -bnR "${workspace_dir}"
+
+# Allow direnv to load `.envrc` files in the workspace mount
+direnv allow "${workspace_dir}"
