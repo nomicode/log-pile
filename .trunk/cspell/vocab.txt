@@ -1,7 +1,9 @@
+codezombiech
 direnv
 envrc
 nomirose
 patsubst
 POSIX
+reis
 setfacl
 trunkio

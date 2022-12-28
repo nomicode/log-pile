@@ -1,3 +1,19 @@
 {
-  "image": "ghcr.io/nomirose/devcontainer:latest"
+  "image": "ghcr.io/nomirose/devcontainer:latest",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        // cspell:disable
+        "codezombiech.gitignore",
+        "david-reis.crashacters",
+        "mkhl.direnv",
+        "nhoizey.gremlins",
+        "redhat.vscode-yaml",
+        "sandcastle.whitespace",
+        "tetradresearch.vscode-h2o",
+        "trunk.io"
+        // cspell:enable
+      ]
+    }
+  }
 }
