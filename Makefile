@@ -53,19 +53,19 @@ check: install
 .PHONY: check-all # Check all files in the repository
 # -----------------------------------------------------------------------------
 
-check-all:
+check-all: install
 	yarn trunk check --all
 
 .PHONY: format # Format new and changed files
 # -----------------------------------------------------------------------------
 
-format:
+format: install
 	yarn trunk fmt
 
 .PHONY: format-all # Format all files in the repository
 # -----------------------------------------------------------------------------
 
-format-all:
+format-all: install
 	yarn trunk fmt --all
 
 # Clean
